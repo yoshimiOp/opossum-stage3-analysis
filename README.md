@@ -3,6 +3,9 @@ analyzing Stage III of PN duration in Monodelphis domestica embryos
 
 # Stage III Embryo Duration Analysis
 This repository contains Python code used to analyze the duration of PN's Stage III in *Monodelphis domestica* embryos, as described in our paper.
+- Process 3D pronuclear tracking data generated via TrackMate (ImageJ/Fiji).
+- Integrate pronuclear radius dynamics to evaluate stage transitions.
+- Calculate and plot the duration of Stage III in hours.
 
 ## Requirements
 - Python 3.x
@@ -10,10 +13,6 @@ This repository contains Python code used to analyze the duration of PN's Stage 
 - numpy
 - matplotlib
 - seaborn
-
-## File Structure
-- `code.ipynb`: Jupyter Notebook containing data processing, duration calculation, and visualization.
-- `data/`: Directory containing input CSV files from TrackMate and radius measurements.
 
 ## Usage
 1. Ensure all required Python libraries are installed.
